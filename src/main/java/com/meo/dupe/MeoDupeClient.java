@@ -22,7 +22,7 @@ public final class MeoDupeClient implements ClientModInitializer {
         openMenuKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
                 "key.meocpvp.open_menu",
                 InputUtil.Type.KEYSYM,
-                GLFW.GLFW_KEY_N,
+                GLFW.GLFW_KEY_RIGHT_SHIFT,
                 KeyBinding.Category.MISC
         ));
 
