@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "meocpvp",
+  "version": "${version}",
+  "name": "MEO CPvP",
+  "description": "Client-side MEO CPvP utility mod.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.meo.dupe.MeoDupeClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
