@@ -62,7 +62,7 @@ public final class MeoDupeClient implements ClientModInitializer {
 
         client.interactionManager.clickSlot(
                 client.player.currentScreenHandler.syncId,
-                pendingTotemSlot,
+                pendingTotemSlot < 9 ? 36 + pendingTotemSlot : pendingTotemSlot,
                 40,
                 SlotActionType.SWAP,
                 client.player
